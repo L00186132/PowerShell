@@ -18,6 +18,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#contributions">Contributions</a></li>
+    <li><a href="#instructions">Instructions</a></li>
   </ol>
 </details>
 
@@ -62,21 +63,22 @@ Distributed under the Donegal ATU License. See `LICENSE` for more information.
 | 2. PowerShell Coding |  | 
 | 3. Remoting In Powershell |  | 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-#### GitHubInstructions
+<br>
+
+<!-- Instructions -->
+## Instructions
+### Repository Instructions
 * Clone repository
   ```sh
-  git clone https://github.com/L00186132/PowerShell.git
-  ```
-* Fork repository
-  ```sh
-  https://github.com/L00186132/PowerShell/fork
+  git clone https://github.com/L00186132/Python.git
   ```
 * Create your feature branch
   ```sh
   git checkout -b feature/branch
   ```
-* Stage  your changes
+* Stage your changes
   ```sh
   git add <filename>
   ```
@@ -93,7 +95,43 @@ Distributed under the Donegal ATU License. See `LICENSE` for more information.
   ```
 * Create a new Pull Request 
   ```sh
-  https://github.com/L00186132/PowerShell/pulls
+  https://github.com/L00186132/Python/pulls
   ```
+* Pull latest GitHub repository changes to your local repository 
+  ```sh
+  git pull
+  ```
+<br>
+
+### Useful Instructions 
+* Check status
+  ```sh
+  git status
+  ```
+* List all local branches
+  ```sh
+  git branch
+  ```
+* List all remote branches
+  ```sh
+  git branch -r
+  ```
+* Delete a branche
+  ```sh
+  git branch -d <branchName>
+  ```
+* View Summary changes
+  ```sh
+  git log
+  ```
+* Preview changes before merging
+  ```sh
+  git diff <SourceBranch> <TargetBranch>
+  ```
+* Fork repository
+  ```sh
+  https://github.com/L00186132/Python/fork
+  ```
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
