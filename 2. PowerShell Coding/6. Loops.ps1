@@ -4,7 +4,7 @@
 #     <Statement list>
 # }
 
-$counter=0 A 
+$counter=0
 for ($counter = 0; $counter -lt 10; $counter++)
 {
     $counter
@@ -40,8 +40,8 @@ while(($inp = Read-Host -Prompt "Select a command") -ne "Q"){
 $a = 0 
 do
 {
-    “Starting Loop $a”
+    "Starting Loop $a"
     $a
     $a++
-    “Now `$a is $a”
+    "Now `$a is $a"
 } until ($a -ge 5)]
