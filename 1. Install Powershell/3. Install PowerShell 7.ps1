@@ -1,7 +1,8 @@
 ﻿$MYPARAMS = @{
     UseMSI = $true
-    Quite = $true
+    Quiet = $true
     AddExplorerContextMenu = $true
     EnablePSRemoting = $true
 }
+
 C:\PowerShell\Install-PowerShell.ps1 @MYPARAMS
